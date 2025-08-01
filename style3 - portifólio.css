@@ -1,0 +1,26 @@
+.cabeçalho {
+  display: block;
+  padding: 20px;
+  text-align: start;            
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #FAF9F6;
+  border-bottom: 2px solid #ccc; 
+}
+
+footer h4 {
+  margin-bottom: 16px;
+}
+
+footer .w3-button {
+  
+  font-size: 20px;}
+
+.coluna2 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}

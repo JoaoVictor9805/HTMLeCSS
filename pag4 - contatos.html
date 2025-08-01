@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Exemplo</title>
+
+    <style>
+        .dia-opção {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        .flex {
+          display: flex;
+        }
+
+         .coluna {
+            flex: 1;
+            padding: 20px;
+        }
+        
+        footer h4 {
+            margin-bottom: 16px;
+        }
+
+        footer .w3-button {
+            font-size: 20px;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="style4 - contatos.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+
+</head>
+
+<body>
+    
+     <div class="cabeçalho w3-theme-d4"> 
+        <p1> Formulário do paciente </p1>
+        <p>Olá! Por favor, responda a esse formulário para marcar sua consulta</p>
+    </div>
+
+    <section class="site">
+            <br>
+            <p6>(obs: Os atendimentos são das 14h-18h, os quais são disponibilizados de acordo com a agenda da doutora.)</p6>
+            <br><br>
+        <form>
+
+            <form action="/autenticacao.php">
+            <label>Nome:</label><br>
+            <input type="text" id="login" name="login"><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="senha" name="senha"><br>
+
+            <label>Telefone/Whatsapp:</label><br>
+            <input type="whats" id="whats" name="whats"><br><br>
+
+        </form>
+        </form>
+
+        <br><br><br>
+        <p6>Quais dias da semana você tem preferência para a consulta?</p6>
+
+        <br><br>
+        <div class="dia-opção">
+            <input type="checkbox" id="Segunda" name="segunda" value="segunda">
+            <label for="segunda">Segunda</label><br>
+        </div>
+
+        <div class="dia-opção">
+            <input type="checkbox" id="terça" name="terça" value="terça">
+            <label for="terça">Terça</label><br>
+        </div>
+
+        <div class="dia-opção">
+            <input type="checkbox" id="quarta" name="quarta" value="quarta">
+            <label for="quarta">Quarta</label><br>
+        </div>
+
+        <div class="dia-opção">
+            <input type="checkbox" id="quinta" name="quinta" value="quinta">
+            <label for="quinta">Quinta</label><br>
+        </div>
+
+        <div class="dia-opção">
+            <input type="checkbox" id="sexta" name="sexta" value="sexta">
+            <label for="sexta">Sexta</label><br>
+        </div>
+
+        <br><br><br>
+        <p6>Deseja consulta presencial ou online? </p6>
+        <br><br>
+        
+        <form action="/autenticacao.php">
+            <div class="flex"> 
+                <div class="coluna"> 
+                    <input type="radio" id="presencial" name="consulta" value="presencial">
+                    <label for="presencial">Presencial</label>
+                </div>
+                <div class="coluna"> 
+                    <input type="radio" id="online" name="consulta" value="online">
+                    <label for="online">Online</label>
+                </div>
+            </div>
+        </form>
+        <br><br>
+        <input type="submit" value="Enviar dados"><br><br>
+        <input type="reset" value="Limpar dados"><br><br>
+    </section>
+
+</body>
+
+ <footer id="contato" class="w3-container w3-theme-d4 w3-padding-32 w3-center">
+        <h4>Entre em contato</h4>
+    
+            <a href="https://wa.me/55SEUNUMERO" target="_blank" class="w3-button w3-green w3-margin">
+                <i class="fa fa-whatsapp"></i>
+            </a>
+
+            <a href="mailto:mariananutri@gmail.com" class="w3-button w3-blue w3-margin">
+                <i class="fa fa-envelope"></i>
+            </a>
+
+            <a href="https://instagram.com/nutrimarianaribeiro" target="_blank" class="w3-button w3-pink w3-margin">
+                <i class="fa fa-instagram"></i>
+            </a>
+
+        <p class="w3-small w3-margin-top">
+            © 2025 Dra. Mariana Ribeiro – Nutricionista Clínica e Esportiva
+        </p>
+    </footer>
+
+</html>

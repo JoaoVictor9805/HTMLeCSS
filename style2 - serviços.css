@@ -1,0 +1,29 @@
+.topo {
+  display: block;
+  padding: 20px;
+  text-align: start;            
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #FAF9F6;
+}
+
+.subtexto {
+    text-align: end;
+}
+
+.Selecionavel:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    filter: brightness(90%);
+    
+}
+
+footer h4 {
+  margin-bottom: 16px;
+}
+
+footer .w3-button {
+  
+  font-size: 20px;}
