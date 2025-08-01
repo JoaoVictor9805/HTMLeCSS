@@ -1,0 +1,267 @@
+.formulario {
+    text-align: left;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+.ancizar-sans-texto {
+  font-family: "Ancizar Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+nav {
+    display: flex;
+    background: linear-gradient(to left, #2c2c2c, #000000);     /* para centralizar a imagem */
+}
+
+nav a:hover {
+        background-color: white;
+        color: black;
+        font-family: "Bebas Neue", sans-serif;
+        transition: 0.5s;
+    }
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.links_nav {
+    text-transform: uppercase;      
+    font-size: 50px;                                
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 10px 10px 0px;
+    width: 100%;
+    margin-bottom: 0%;
+    font-family: "Bebas Neue", sans-serif;
+    
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+ 
+h1 {
+    text-transform: uppercase;
+    margin-top: 0; 
+    color: white;
+    font-family: "Bebas Neue", sans-serif;    
+    font-size: 50px; 
+    padding: 50px 10px 10px 50px;
+}
+
+.filmes {
+    display: flex;
+}
+
+.filme {
+    width: 30%;   
+    padding: 20px;
+
+
+}
+
+.meio {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.quizes {
+    float: left;
+    width: 25%;
+}
+
+.poster {
+    border: 2px dotted gray;         
+    margin: 0px 00px 0px 160px    
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px; /* aumenta o espaço entre as letras */
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.tabelas {
+    
+    color: black;
+    text-align: justify;
+    font-family: "Ancizar Sans", sans-serif;
+    background-color: white; /* cor do fundo da caixa */
+    padding: 20px;             /* espaço interno */
+    border: 2px solid white;    /* borda ao redor */
+    border-radius: 10px;       /* cantos arredondados */
+    width: fit-content;        /* largura ajustada ao conteúdo */
+    height: 48%;
+    margin: 20px auto;         /* centraliza na horizontal */
+    font-size: 18px;
+
+}
+
+.alugar {
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;    
+    background-color: white; /* cor do fundo da caixa */
+    padding: 20px;             /* espaço interno */
+    border: 2px solid white;    /* borda ao redor */
+    border-radius: 20px;       /* cantos arredondados */
+    width: 100px;        /* largura ajustada ao conteúdo */
+    margin: 20px auto;         /* centraliza na horizontal */
+    font-size: 25px;
+    
+}
+
+.alugar a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+
+
+}
+
+.alugar:hover {
+    background-color: black;
+    transition: 0.5s;
+    
+}
+
+.alugar a:hover {
+    color:white;
+    transition: 0.5s;
+
+}
+
+
+
+.tudo {
+     background: linear-gradient(-45deg, #000000, #02052e, #4c0063);
+}
+
+.formulario {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.opcoes {
+    text-align: left;
+    margin-left: 30%;
+}
+
+.botao {
+    background-color: #4CAF50; /* cor de fundo */
+  color: white;              /* cor do texto */
+  padding: 10px 20px;        /* espaçamento interno */
+  border: none;              /* tira a borda padrão */
+  border-radius: 8px;        /* cantos arredondados */
+  font-size: 16px;           /* tamanho da fonte */
+  cursor: pointer;           /* cursor de mão ao passar */
+  transition: background-color 0.5s;
+  }
+
+  .botao2 {
+    background-color: #ffffff; /* cor de fundo */
+  color: black;              /* cor do texto */
+  padding: 10px 20px;        /* espaçamento interno */
+  border: none;              /* tira a borda padrão */
+  border-radius: 8px;        /* cantos arredondados */
+  font-size: 16px;           /* tamanho da fonte */
+  cursor: pointer;           /* cursor de mão ao passar */
+  transition: background-color 0.5s;
+  }
+
+  .botao2 a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-family: "Bebas Neue", sans-serif;    
+
+  }
+
+.minions {
+    padding-left: 80px;
+    display: flex;
+}
+
+.minion {
+    width: 25%;   
+    padding: 20px; }
+
+.imagem2 {
+    padding-left: 35px;
+}
+
+.imagem3 {
+    padding-left: 40px;
+}
+
+.imagem4 {
+    padding-left: 25px;
+}
+
+table {
+    align-items: center;
+    width: 90%;                         /* deixa a tabela mais larga */
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;    
+    font-size: 25px;                     /* aumenta o tamanho da fonte */
+    border-collapse: collapse;          /* junta as bordas das células */
+    margin: 20px auto;                   /* centraliza com espaçamento */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);/* sombreamento leve */
+}
+
+
+.titulotabela {
+    text-transform: uppercase;
+    margin-top: 0; 
+    color: white;
+    font-family: "Bebas Neue", sans-serif;    
+    font-size: 30px; 
+    padding: 50px 10px 10px 50px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    
+}
